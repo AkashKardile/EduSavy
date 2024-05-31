@@ -67,19 +67,12 @@ Ensure you have the following installed:
     backend/
     ├── .env                  # Environment variables
     ├── adminsignup.js        # Admin signup logic
-
     ├── app.js                # Express.js application setup
-
     ├── connection.js         # Database connection setup
-
     ├── courses.js            # Course-related logic
-
     ├── mail.js               # Email handling
-
     ├── Payment.js            # Payment processing logic
-
     ├── routes.js             # API routes
-
     ├── Usersignup.js         # User signup logic
 
 
@@ -88,23 +81,14 @@ Ensure you have the following installed:
     frontend/
 
     ├── src/
-
     │   ├── components/
-
     │   │   ├── Admin/        # Admin components
-
     │   │   ├── Courses/      # Course components
-
     │   │   ├── Modal/        # Modal components
-
     │   │   ├── user/         # User components
-
     │   ├── assets/           # Static assets
-
     │   ├── routes/           # Route components
-
     │   ├── App.js            # Main application component
-
     │   └── index.js          # Entry point for React
 
 ## Contributing
