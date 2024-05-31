@@ -1,21 +1,24 @@
-Shop Application
+EduSavy (Learning Management System)
 
 ## Overview
 
-FoodHub, developed using React.js, Node.js, and Express.js, elevates your dining experience. With custom middlewares and hooks, it offers seamless navigation and enhanced user interactions. JSON data handling ensures efficient communication between frontend and backend, facilitating real-time updates of menus and orders. FoodHub's innovative use of technology guarantees lightning-fast performance and reliability, making it your go-to platform for culinary adventures.
+EduSavy is a comprehensive learning management system (LMS) built using modern web technologies to deliver an immersive learning experience. Leveraging React.js for dynamic user interfaces, React Router DOM for seamless navigation, Axios for efficient API communication, and EmailJS for client-side email functionalities, the platform ensures an engaging and interactive frontend. On the backend, Node.js and Express.js provide robust server-side logic, while MongoDB offers a scalable database solution for storing diverse LMS data. Security and data integrity are prioritized with bcrypt for password hashing and JWT for authentication and authorization.EduSavy empowers educators and learners with tools for efficient management of courses, user profiles, and learning resources, ensuring a secure and engaging educational environment.
 
 ## Features
 
-- **Seamless Navigation**: Intuitive navigation with custom hooks.
-- **Real-Time Updates**: Efficient JSON data handling for real-time menu and order updates.
-- **Enhanced User Interactions**: Smooth and responsive user experience.
-- **Lightning-Fast Performance**: High performance and reliability with optimized code.
-- **Robust Backend**: Secure and scalable backend with Node.js and Express.js.
+- **Dynamic User Interfaces**: Interactive and responsive UI using React.js.
+- **Seamless Navigatio**n: Smooth page transitions with React Router DOM.
+- **Efficient API Communication**: Robust API handling with Axios.
+- **Email Functionalities**: Client-side email features with EmailJS.
+- **Robust Backend**: Secure server-side logic with Node.js and Express.js.
+- **Scalable Database**: Flexible and scalable data storage with MongoDB.
+- **Security**: Password hashing with bcrypt and authentication with JWT.
 
 ## Tech Stack
 
-- **Frontend**: React.js
-- **Backend**: Node.js, Express.js
+- **Frontend**: React.js, React Router DOM, Axios, EmailJS
+
+- **Backend**: Node.js, Express.js, MongoDB, bcrypt, JWT
 
 ## Getting Started
 
@@ -27,12 +30,13 @@ Ensure you have the following installed:
 
 - Node.js (v14 or later)
 - npm (v6 or later) or yarn (v1.22 or later)
+- MongoDB
 
 ### Installation
 
 1.  **Clone the repository:**
 
-    git clone https://github.com/AkashKardile/FoodHub.git
+    git clone https://github.com/AkashKardile/EduSavy.git
 
 2.  **Install dependencies**:
 
@@ -62,29 +66,48 @@ Ensure you have the following installed:
 
     backend/
 
-    ├── data/         # JSON files
+    ├── .env                  # Environment variables
 
-    ├── public/       # Images
+    ├── adminsignup.js        # Admin signup logic
 
-    ├── app.js        # Express.js application setup
+    ├── app.js                # Express.js application setup
+
+    ├── connection.js         # Database connection setup
+
+    ├── courses.js            # Course-related logic
+
+    ├── mail.js               # Email handling
+
+    ├── Payment.js            # Payment processing logic
+
+    ├── routes.js             # API routes
+
+    ├── Usersignup.js         # User signup logic
+
 
 
 
     frontend/
+
     ├── src/
-    │   ├── assets/   # Static assets
 
-    │   ├── components/ # Reusable components
+    │   ├── components/
 
-    │   ├── hooks/    # Custom hooks
+    │   │   ├── Admin/        # Admin components
 
-    │   ├── utils/    # Utility functions
+    │   │   ├── Courses/      # Course components
 
-    │   ├── store/    # State management
+    │   │   ├── Modal/        # Modal components
 
-    │   ├── App.js    # Main application component
+    │   │   ├── user/         # User components
 
-    │   └── index.js  # Entry point for React
+    │   ├── assets/           # Static assets
+
+    │   ├── routes/           # Route components
+
+    │   ├── App.js            # Main application component
+
+    │   └── index.js          # Entry point for React
 
 ## Contributing
 
@@ -109,3 +132,9 @@ This project is licensed under the MIT License. See the [LISENSE](LISENSE) file 
 - [React.js](https://react.dev/)
 - [Node.js](https://nodejs.org/en)
 - [Exprees.js](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
+- [JWT](https://jwt.io/)
+- [Axios](https://axios-http.com/)
+- [Emailjs](https://www.emailjs.com/)
+- [React Router Dom](https://reactrouter.com/en/main)
