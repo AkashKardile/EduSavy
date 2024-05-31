@@ -65,9 +65,7 @@ Ensure you have the following installed:
 **Project Structure**
 
     backend/
-
     ├── .env                  # Environment variables
-
     ├── adminsignup.js        # Admin signup logic
 
     ├── app.js                # Express.js application setup
