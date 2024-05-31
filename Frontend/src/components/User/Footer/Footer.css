@@ -1,0 +1,13 @@
+.footer-segment {
+  background-color: black !important;
+}
+
+.footer-segment .black-text {
+  color: white !important;
+}
+
+.footer-segment .inverted .header,
+.footer-segment .inverted .list,
+.footer-segment .inverted .list a {
+  color: white !important;
+}

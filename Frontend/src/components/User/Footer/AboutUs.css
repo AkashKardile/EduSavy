@@ -1,0 +1,86 @@
+h1 {
+  /* color:rgb(82, 82, 82); */
+  align-items: center;
+  justify-content: center;
+}
+h1 p {
+  color: rgb(90, 89, 89);
+}
+img {
+  /* width: 70px; */
+  height: 70px;
+  /* padding: 10px; */
+  margin: 10px;
+}
+img:hover {
+  /* width: 78px; */
+  height: 80px;
+  padding: 10px;
+  /* margin: 10px; */
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+  margin: 20px;
+  padding: 20px;
+  /* box-shadow: 1px 1px 1px  1px rgb(145, 145, 145); */
+
+  /* background-color: aquamarine;  */
+}
+#imga {
+  background-image: url("https://icsi.edu/media/filer_public/8c/65/8c650152-d3eb-4ef1-888d-b248f20bfe20/student_3.jpg");
+  /* background-repeat: repeat-y; */
+  /* background-position:  center; */
+  opacity: 1;
+  color: aliceblue;
+  background-attachment: relative;
+  width: 1400px;
+  height: 400px;
+}
+.first {
+  margin: 30px;
+  padding: 30px;
+}
+/* .second{
+    background: url("c:\Users\admin\Downloads\aboutus_imarticus" ) ;
+    /* background-repeat: repeat-y; */
+/* background-position:  center; 
+    opacity: 1;
+    color: aliceblue;
+    background-attachment: relative;
+    width: 1400px;
+    height: 400px;
+} */
+
+.star {
+  color: rgb(236, 204, 18);
+
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  background-color: rgb(135, 212, 218);
+  align-items: center;
+  justify-content: center;
+  color: rgb(90, 89, 89);
+}
+
+.btn {
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  padding-right: 30px;
+  font-size: 25px;
+  color: rgb(90, 89, 89);
+}
